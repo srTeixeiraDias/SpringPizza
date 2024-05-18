@@ -11,7 +11,7 @@ import java.time.LocalTime;
 
 @Service
 @RequiredArgsConstructor
-public class EntregaServiceImpl implements EntregaService {
+public class EntregaServiceImpl extends AbstractCrud<Entrega, String, EntregaRepository> implements EntregaService {
 
     private final EntregaRepository entregaRepository;
 
@@ -25,5 +25,10 @@ public class EntregaServiceImpl implements EntregaService {
     @Override
     public Boolean verificarPagamento(Entrega entrega) {
         return entrega.getTipoPagamento()!= null;
+    }
+
+    @Override
+    public EntregaRepository getRepository() {
+        return entregaRepository;
     }
 }
