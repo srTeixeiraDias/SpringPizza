@@ -8,7 +8,7 @@ import service.ItemService;
 
 @Service
 @RequiredArgsConstructor
-public class ItemServiceImpl extends AbstractCrud<Item, String, ItemRepository> implements ItemService {
+public class ItemServiceImpl extends AbstractCrudService<Item, String, ItemRepository> implements ItemService {
 
     private final ItemRepository itemRepository;
 

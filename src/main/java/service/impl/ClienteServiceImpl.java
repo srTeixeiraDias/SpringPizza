@@ -12,7 +12,7 @@ import java.util.List;
 
 @Service
 @RequiredArgsConstructor
-public class ClienteServiceImpl extends AbstractCrud<Cliente, String, ClienteRepository> implements ClienteService {
+public class ClienteServiceImpl extends AbstractCrudService<Cliente, String, ClienteRepository> implements ClienteService {
 
     private final PedidoRepository pedidoRepository;
     private final ClienteRepository clienteRepository;

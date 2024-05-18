@@ -6,7 +6,7 @@ import service.Crud;
 import java.util.List;
 import java.util.Optional;
 
-public abstract class AbstractCrud<T, ID, REPO extends JpaRepository<T,ID>> implements Crud<T, ID> {
+public abstract class AbstractCrudService<T, ID, REPO extends JpaRepository<T,ID>> implements Crud<T, ID> {
 
     public abstract REPO getRepository();
 

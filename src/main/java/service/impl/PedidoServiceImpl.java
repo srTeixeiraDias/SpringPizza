@@ -13,7 +13,7 @@ import java.math.BigDecimal;
 
 @Service
 @RequiredArgsConstructor
-public class PedidoServiceImpl extends AbstractCrud<Pedido, String, PedidoRepository> implements PedidoService {
+public class PedidoServiceImpl extends AbstractCrudService<Pedido, String, PedidoRepository> implements PedidoService {
 
     private final ItemRepository itemRepository;
     private final EntregaRepository entregaRepository;

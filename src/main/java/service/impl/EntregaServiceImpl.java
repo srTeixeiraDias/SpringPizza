@@ -11,7 +11,7 @@ import java.time.LocalTime;
 
 @Service
 @RequiredArgsConstructor
-public class EntregaServiceImpl extends AbstractCrud<Entrega, String, EntregaRepository> implements EntregaService {
+public class EntregaServiceImpl extends AbstractCrudService<Entrega, String, EntregaRepository> implements EntregaService {
 
     private final EntregaRepository entregaRepository;
 
