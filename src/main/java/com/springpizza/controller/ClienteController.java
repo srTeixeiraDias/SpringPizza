@@ -1,10 +1,10 @@
-package controller;
+package com.springpizza.controller;
 
 import lombok.RequiredArgsConstructor;
-import model.Cliente;
-import model.Pedido;
+import com.springpizza.model.Cliente;
+import com.springpizza.model.Pedido;
 import org.springframework.web.bind.annotation.*;
-import service.ClienteService;
+import com.springpizza.service.ClienteService;
 
 import java.util.List;
 

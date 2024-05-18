@@ -1,13 +1,13 @@
-package service.impl;
+package com.springpizza.service.impl;
 
+import com.springpizza.service.PedidoService;
 import lombok.RequiredArgsConstructor;
-import model.Item;
-import model.Pedido;
+import com.springpizza.model.Item;
+import com.springpizza.model.Pedido;
 import org.springframework.stereotype.Service;
-import repository.EntregaRepository;
-import repository.ItemRepository;
-import repository.PedidoRepository;
-import service.PedidoService;
+import com.springpizza.repository.EntregaRepository;
+import com.springpizza.repository.ItemRepository;
+import com.springpizza.repository.PedidoRepository;
 
 import java.math.BigDecimal;
 

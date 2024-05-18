@@ -1,9 +1,9 @@
-package controller;
+package com.springpizza.controller;
 
 import lombok.RequiredArgsConstructor;
-import model.Entrega;
+import com.springpizza.model.Entrega;
 import org.springframework.web.bind.annotation.*;
-import service.EntregaService;
+import com.springpizza.service.EntregaService;
 
 @RestController
 @RequestMapping("entrega")

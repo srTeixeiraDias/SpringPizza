@@ -1,8 +1,8 @@
-package controller;
+package com.springpizza.controller;
 
 
 import org.springframework.web.bind.annotation.*;
-import service.Crud;
+import com.springpizza.service.Crud;
 
 import java.util.List;
 

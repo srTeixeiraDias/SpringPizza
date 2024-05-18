@@ -1,4 +1,4 @@
-package service;
+package com.springpizza.service;
 
 
 import java.util.List;

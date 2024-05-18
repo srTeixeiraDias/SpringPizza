@@ -1,7 +1,6 @@
-package service;
+package com.springpizza.service;
 
-import model.Cliente;
-import model.Entrega;
+import com.springpizza.model.Entrega;
 
 public interface EntregaService extends Crud<Entrega, String>{
 

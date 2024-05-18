@@ -1,7 +1,7 @@
-package service.impl;
+package com.springpizza.service.impl;
 
+import com.springpizza.service.Crud;
 import org.springframework.data.jpa.repository.JpaRepository;
-import service.Crud;
 
 import java.util.List;
 import java.util.Optional;

@@ -1,10 +1,10 @@
-package service.impl;
+package com.springpizza.service.impl;
 
+import com.springpizza.service.EntregaService;
 import lombok.RequiredArgsConstructor;
-import model.Entrega;
+import com.springpizza.model.Entrega;
 import org.springframework.stereotype.Service;
-import repository.EntregaRepository;
-import service.EntregaService;
+import com.springpizza.repository.EntregaRepository;
 
 import java.time.LocalDate;
 import java.time.LocalTime;

@@ -1,7 +1,6 @@
-package service;
+package com.springpizza.service;
 
-import model.Cliente;
-import model.Pedido;
+import com.springpizza.model.Pedido;
 
 import java.math.BigDecimal;
 

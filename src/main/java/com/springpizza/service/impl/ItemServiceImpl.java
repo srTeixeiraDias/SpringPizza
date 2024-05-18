@@ -1,10 +1,10 @@
-package service.impl;
+package com.springpizza.service.impl;
 
 import lombok.RequiredArgsConstructor;
-import model.Item;
+import com.springpizza.model.Item;
 import org.springframework.stereotype.Service;
-import repository.ItemRepository;
-import service.ItemService;
+import com.springpizza.repository.ItemRepository;
+import com.springpizza.service.ItemService;
 
 @Service
 @RequiredArgsConstructor

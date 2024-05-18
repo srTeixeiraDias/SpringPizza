@@ -1,14 +1,12 @@
-package controller;
+package com.springpizza.controller;
 
 import lombok.RequiredArgsConstructor;
-import model.Cliente;
-import model.Pedido;
+import com.springpizza.model.Pedido;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import service.ClienteService;
-import service.PedidoService;
+import com.springpizza.service.PedidoService;
 
 import java.math.BigDecimal;
 

@@ -1,12 +1,12 @@
-package service.impl;
+package com.springpizza.service.impl;
 
+import com.springpizza.service.ClienteService;
 import lombok.RequiredArgsConstructor;
-import model.Cliente;
-import model.Pedido;
+import com.springpizza.model.Cliente;
+import com.springpizza.model.Pedido;
 import org.springframework.stereotype.Service;
-import repository.ClienteRepository;
-import repository.PedidoRepository;
-import service.ClienteService;
+import com.springpizza.repository.ClienteRepository;
+import com.springpizza.repository.PedidoRepository;
 
 import java.util.List;
 
